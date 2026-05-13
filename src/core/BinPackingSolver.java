@@ -12,5 +12,7 @@ public interface BinPackingSolver {
      * @return Una lista de contenedores, donde cada contenedor es una lista de pesos.
      */
 	  List<List<Double>> solve(double capacity, List<Double> weights);
+	  
+	  
 
 }
